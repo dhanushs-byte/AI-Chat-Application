@@ -1,4 +1,4 @@
-# 🤖 AI Chat Application
+#  AI Chat Application
 
 A full-stack AI-powered chatbot built using **FastAPI, PostgreSQL, SQLAlchemy, OpenRouter, HTML, CSS and JavaScript**.
 
@@ -8,7 +8,7 @@ This project was developed as part of **Week 5 – Day 5: LLM Application Develo
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **AI Chat:** Generate intelligent responses using OpenRouter.
 - **Streaming Responses:** Display AI responses progressively using Server-Sent Events (SSE).
@@ -26,7 +26,7 @@ This project was developed as part of **Week 5 – Day 5: LLM Application Develo
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Component | Technology |
 |---|---|
@@ -46,7 +46,7 @@ This project was developed as part of **Week 5 – Day 5: LLM Application Develo
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 AI-Chat-Application/
@@ -85,7 +85,7 @@ AI-Chat-Application/
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 The application uses PostgreSQL with three tables.
 
@@ -125,7 +125,7 @@ Tracks API requests using hashed API keys.
 
 ---
 
-## ⚙️ Installation and Setup
+##  Installation and Setup
 
 ### Prerequisites
 
@@ -287,7 +287,7 @@ Token usage and cost values depend on the selected model and actual API response
 
 ---
 
-## 🔐 Authentication
+##  Authentication
 
 API key authentication is implemented using FastAPI dependencies.
 
@@ -307,7 +307,7 @@ Expected responses:
 
 ---
 
-## ⏱️ Rate Limiting
+##  Rate Limiting
 
 The application enforces:
 
@@ -329,7 +329,7 @@ The response includes a `Retry-After` header indicating when another request can
 
 ---
 
-## 🧠 Conversation Memory
+##  Conversation Memory
 
 The application implements sliding-window memory.
 
@@ -342,7 +342,7 @@ Older messages remain stored in PostgreSQL and can be retrieved when the user re
 
 ---
 
-## 📊 Token and Cost Tracking
+##  Token and Cost Tracking
 
 The application tracks:
 
@@ -363,7 +363,7 @@ Pricing is configurable through environment variables.
 
 ---
 
-## 🔄 Error Handling and Retries
+##  Error Handling and Retries
 
 Tenacity is used to retry temporary failures when establishing the LLM streaming request.
 
@@ -376,7 +376,7 @@ The implementation uses:
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 The project uses Pytest for automated testing.
 
@@ -427,7 +427,7 @@ TOTAL
 
 ---
 
-## 🖥️ Application Demo
+##  Application Demo
 
 The application provides:
 
@@ -441,7 +441,7 @@ The application provides:
 
 ---
 
-## 🎯 Key Learning Outcomes
+##  Key Learning Outcomes
 
 Through this project, I gained practical experience in:
 
@@ -459,7 +459,7 @@ Through this project, I gained practical experience in:
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - User registration and login.
 - Redis-based distributed rate limiting.
@@ -471,7 +471,7 @@ Through this project, I gained practical experience in:
 
 ---
 
-## 👨‍💻 Project Information
+## Project Information
 
 **Project Name:** AI Chat Application
 
@@ -495,4 +495,4 @@ Through this project, I gained practical experience in:
 
 ---
 
-⭐ Built as part of my hands-on LLM Application Development training.
+ Built as part of my hands-on LLM Application Development training.
