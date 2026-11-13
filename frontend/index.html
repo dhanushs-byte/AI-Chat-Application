@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AI Chat Application</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app-container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <h2>AI Chat</h2>
+
+        <button id="newChatBtn" class="new-chat">
+            + New Chat
+        </button>
+
+        <h3>Recent Conversations</h3>
+
+        <div id="sessionList" class="session-list">
+        </div>
+
+        <div class="settings">
+
+            <h3>API Settings</h3>
+
+            <input
+                type="password"
+                id="apiKey"
+                placeholder="Enter API key"
+                autocomplete="off"
+            >
+
+            <button id="saveKeyBtn">
+                Save API Key
+            </button>
+
+            <p id="keyStatus"></p>
+
+        </div>
+
+    </aside>
+
+
+    <!-- Main Chat -->
+    <main class="chat-container">
+
+        <header class="chat-header">
+
+            <h2>AI Assistant</h2>
+
+            <span id="status">Ready</span>
+
+        </header>
+
+
+        <!-- Messages -->
+        <section id="messages" class="messages">
+
+            <div class="welcome">
+                <h1>Welcome to AI Chat!</h1>
+
+                <p>
+                    Ask me anything. Your conversations
+                    will be saved automatically.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- Error / Loading -->
+        <div id="errorMessage" class="error"></div>
+
+        <div id="loading" class="loading hidden">
+            AI is generating a response...
+        </div>
+
+
+        <!-- Input -->
+        <footer class="input-area">
+
+            <textarea
+                id="messageInput"
+                placeholder="Type your message..."
+                rows="2"
+            ></textarea>
+
+            <button id="sendBtn">
+                Send
+            </button>
+
+            <button id="stopBtn" class="stop hidden">
+                Stop
+            </button>
+
+        </footer>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
